@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/luobin998877/go_utility/decimal"
+	"github.com/arthasyou/utility-go/decimal"
 )
 
 func main() {
@@ -13,4 +13,3 @@ func main() {
 	fmt.Println(decimal.Div("1.34", "2.35"))
 	fmt.Println(decimal.Abs("-1.34"))
 }
- 

@@ -1,7 +1,7 @@
 package nsq
 
 import (
-	"github.com/luobin998877/go_utility/logger"
+	"github.com/arthasyou/utility-go/logger"
 	"github.com/nsqio/go-nsq"
 	"go.uber.org/zap"
 )

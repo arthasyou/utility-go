@@ -1,5 +1,5 @@
 variables:
-  PROJECT_NAME: github.com/luobin998877/go_utility
+  PROJECT_NAME: github.com/arthasyou/utility-go
   BUILD_PATH: /home/ci/go/_build
 
 

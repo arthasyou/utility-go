@@ -1,4 +1,4 @@
-module github.com/luobin998877/go_utility
+module github.com/arthasyou/utility-go
 
 go 1.15
 

@@ -7,7 +7,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/luobin998877/go_utility/nsq"
+	"github.com/arthasyou/utility-go/nsq"
 )
 
 type consumerHandler struct{}
