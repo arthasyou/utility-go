@@ -1,0 +1,32 @@
+variables:
+  PROJECT_NAME: github.com/luobin998877/go_utility
+  BUILD_PATH: /home/ci/go/_build
+
+
+before_script:
+  - export GOROOT=/usr/local/go
+  - export GOPATH=/home/go
+  - export GOPROXY=https://goproxy.cn,direct
+  - export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+
+stages:
+  - deploy
+  - test
+
+deploy_dev:
+  stage: deploy
+  script:
+    - rm -rf $BUILD_PATH/$PROJECT_NAME
+    - rsync -av  $CI_PROJECT_DIR  $BUILD_PATH
+
+unit_tests:
+  stage: test
+  script:
+    - cd $BUILD_PATH/$PROJECT_NAME
+    #- go test
+
+
+
+
+
+
